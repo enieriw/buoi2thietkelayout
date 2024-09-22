@@ -1,0 +1,115 @@
+﻿@{
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+<style type="text/css">
+    #banner {
+        background-image: url("../Content/image/banner.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+
+    .banner-content {
+        text-align: center;
+        color: white;
+    }
+    .banner-content h2{
+        font-size:2.5rem;
+    }
+
+    .banner-content p{
+        font-size: 2rem;
+    }
+
+    .btn{
+        display: inline-block;
+        padding: 5px 20px;
+        background-color: darkorange;
+        color:white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #featureProd{
+        text-align:center;
+    }
+
+    #featureProd h2{
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .prodContainer{
+        display:flex;
+        justify-content:center;
+        gap: 10px;
+    }
+
+    .product-item{
+        width: 200px;
+    }
+
+    .product-item img{
+        max-width: 150px;
+    }
+
+    .product-item h3{
+        font-size: 16px;
+        color: black;
+        margin: 10px 0px;
+    }
+
+    .proDescription{
+        font-size: 12px;
+        color: dimgrey;
+    }
+
+    .proPrice{
+        font-size: 12px;
+        color: black;
+        font-weight: bold;
+    }
+
+</style>
+
+<section id="banner">
+    <div class="banner-content">
+        <h2>Chào mừng đến với trang trại gà của chúng tôi</h2>
+        <p>Hàng ngàn món ngon từ gà đang chờ đến bạn</p>
+        <a href="#" class="btn">Bắt đầu mua sắm</a>
+    </div>
+</section>
+
+    <section id="search" class="content-section">
+
+    </section>
+    <section id="featureProd" class="content-section">
+        <h2>Sản phẩm nổi bật</h2>
+        <div class="prodContainer">
+            <div class="product-item">
+                <img src="~/Content/image/acer.jpg" />
+                <h3>Acer Nitro 5 tiger</h3>
+                <p class="proDescription">Mỏng nhẹ, giá sinh viên</p>
+                <p class="proPrice">9.999.999</p>
+            </div>
+            <div class="product-item">
+                <img src="~/Content/image/HP.jpg" />
+                <h3>HP 14s DQ màu bạc </h3>
+                <p class="proDescription">Cấu hình mạnh, phù hợp game thủ</p>
+                <p>8.999.999</p>
+            </div>
+            <div class="product-item">
+                <img src="~/Content/image/thinkpad.png" />
+                <h3>Thinkpad X1504ZA</h3>
+                <p class="proDescription">Phong cách doanh nhân</p>
+                <p class="proPrice">29.999.999</p>
+            </div>
+        </div>
+
+    <section id="productList">
+
+    </section>
+</section>
